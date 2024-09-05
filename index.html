@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Simple HTML Template</title>
+    <title>HTML and JS Example</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,15 +27,12 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to My Simple HTML Page</h1>
-    <p>This is a basic HTML template with some inline CSS styles.</p>
+    <h1>JavaScript in a Separate File</h1>
+    <p>Click the button below to trigger a JavaScript function from an external file.</p>
     
-    <button onclick="sayHello()">Click Me!</button>
+    <button onclick="showMessage()">Click Me!</button>
 
-    <script>
-        function sayHello() {
-            alert('Hello, World!');
-        }
-    </script>
+    <!-- Linking the external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
